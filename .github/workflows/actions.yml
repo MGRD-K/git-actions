@@ -12,7 +12,7 @@ jobs:
           ls -a
 
       - name: Checkout
-        uses: actions/checkout@v
+        uses: actions/checkout@v1
 
       - name: list files after checkout
         run: |
